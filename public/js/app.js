@@ -6285,7 +6285,7 @@ __webpack_require__.r(__webpack_exports__);
 
 if (document.getElementById('employeeApp')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById('employeeApp'));
-}
+} else console('error document.getElementById(employeeApp)');
 
 /***/ }),
 
